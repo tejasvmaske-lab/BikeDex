@@ -12,49 +12,49 @@ const cardData = [
     color: '#120F17',
     title: 'Rider Height',
     description: 'Find motorcycles matching your height and confidence level.',
-    label: 'Insights',
+    label: 'Fitment',
   },
   {
     color: '#120F17',
     title: 'Riding Style',
-    description: 'Whether commuting daily, tour on weekends, or chase trails.',
-    label: 'Overview',
+    description: 'Whether you commute daily, tour on weekends, or chase trails.',
+    label: 'Lifestyle',
   },
   {
     color: '#120F17',
     title: 'Budget',
     description: 'Recommendations tailored to your actual spending range.',
-    label: 'Teamwork',
+    label: 'Budget',
   },
   {
     color: '#120F17',
     title: 'Ownership',
-    description: 'Service costs, mileage, reliability, and long ownership.',
-    label: 'Efficiency',
+    description: 'Service costs, mileage, reliability, and long-term ownership.',
+    label: 'Cost',
   },
   {
     color: '#120F17',
     title: 'Experience Level',
-    description: 'Find bikes that match your skill level.',
-    label: 'Connectivity'
+    description: 'Beginner-friendly bikes differ greatly from enthusiast machines.',
+    label: 'Skills'
   },
   {
     color: '#120F17',
     title: 'Accessibility',
     description: 'Real-world comfort goes beyond seat height numbers.',
-    label: 'Protection'
+    label: 'Ergonomics'
   },
   {
     color: '#120F17',
     title: 'Pillion Comfort',
     description: 'For riders who frequently travel with a passenger.',
-    label: 'zxcv'
+    label: 'Comfort'
   },
   {
     color: '#120F17',
     title: 'Usage Pattern',
     description: 'City traffic, highways, touring, or mixed riding conditions.',
-    label: 'mnbv'
+    label: 'Real World'
   }
 ];
 
