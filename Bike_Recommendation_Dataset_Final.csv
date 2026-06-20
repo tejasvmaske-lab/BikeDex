@@ -1,0 +1,108 @@
+brand,model,category,price_inr,engine_cc,power_bhp,torque_nm,seat_height_mm,weight_kg,ground_clearance_mm,fuel_tank_l,mileage_kmpl,top_speed_kmph,riding_posture,beginner_friendly,city_score,highway_score,touring_score,offroad_score,pillion_comfort_score,maintenance_score,overall_score,effective_seat_height_score,recommended_min_height_cm,price_segment,ownership_difficulty
+Yamaha,R15 V4,Sports Bike,171982,155,18.1,14.2,815,141,170,11,46,140,Aggressive,4,5,9,5,1,4,6,9,9,155,Executive Tier,Medium
+KTM,RC 200,Sports Bike,224287,199.5,24.6,19.2,835,160,158,13.7,43.5,140,Aggressive,4,5,8,5,1,4,6,8,7,165,Executive Tier,Medium
+KTM,RC 390,Sports Bike,323497,373.27,42.9,37,835,172,153,13.7,29,160,Aggressive,4,5,8,5,1,4,6,8,7,165,Premium Tier,Medium
+TVS,Apache RR 310,Sports Bike,262271,312.2,37.54,29,810,174,180,11,34.7,160,Aggressive,4,5,8,5,1,4,6,8,8,160,Premium Tier,Medium
+Aprilia,RS 457,Sports Bike,422019,457,46.9,43.5,800,175,165,13,24,190,Aggressive,4,5,8,5,1,4,6,8,9,155,Premium Tier,Medium
+Kawasaki,Ninja 300,Sports Bike,317000,296,38.88,26.1,780,179,140,17,26,160,Aggressive,4,5,8,5,1,4,6,8,10,150,Premium Tier,Medium
+Kawasaki,Ninja 500,Sports Bike,565976,451,44.7,42.6,785,171,145,14,21,190,Aggressive,4,5,8,5,1,4,6,8,10,150,Super Tier,Medium
+Kawasaki,Z650,Sports Bike,725960,649,67.31,64,790,191,130,15,27,201,Aggressive,4,5,8,5,1,4,6,8,10,150,Super Tier,Medium
+Kawasaki,ZX-6R,Sports Bike,1248948,636,122.02,69,830,198,130,17,21.5,250,Aggressive,4,5,8,5,1,4,6,8,7,165,Super Tier,Hard
+Kawasaki,ZX-10R,Sports Bike,2079000,998,193,112,835,207,135,17,25,299,Aggressive,4,5,8,5,1,4,6,8,7,165,Super Tier,Hard
+Suzuki,Gixxer SF 250,Sports Bike,192349,249,26.13,22.2,800,161,165,12,35,150,Aggressive,4,5,8,5,1,4,6,8,9,155,Executive Tier,Medium
+BMW,G 310 RR,Sports Bike,289994,312.12,33.5,27.3,811,174,180,11,30,160,Aggressive,4,5,8,5,1,4,6,8,8,160,Premium Tier,Medium
+Royal Enfield,Meteor 350,Cruiser,198646,349.34,20.2,27,765,191,170,15,32,160,Relaxed,7,6,8,8,1,8,6,8,10,145,Executive Tier,Medium
+Royal Enfield,Super Meteor 650,Cruiser,402945,648,46.3,52.3,740,241,135,15.7,23.7,150,Relaxed,7,6,8,8,1,8,6,8,10,145,Premium Tier,Medium
+Royal Enfield,Hunter 350,Cruiser,137648,349.34,20.2,27,790,181,160,13,36.2,130,Relaxed,9,9,7,6,1,7,6,9,10,145,Mass Tier,Medium
+Jawa,42 Bobber,Cruiser,195313,334,29.51,32.74,740,185,145,12.5,30,130,Relaxed,7,6,8,8,1,8,6,8,10,150,Executive Tier,Medium
+Harley-Davidson,X440,Cruiser,235016,440,27,38,805,190.5,170,13.5,35,135,Relaxed,7,6,8,8,1,8,6,8,9,155,Executive Tier,Medium
+TVS,Ronin,Cruiser,128731,225.9,20.1,19.93,795,159,181,14,42,120,Relaxed,10,10,8,7,1,8,8,9,10,150,Mass Tier,Easy
+Bajaj,Avenger Street 160,Cruiser,130663,220,18.76,17.55,737,160,169,13,40,120,Relaxed,7,6,8,8,1,8,6,8,10,150,Mass Tier,Medium
+Honda,Hness CB350,Cruiser,193117,348.36,20.78,30,800,181,166,15,35,125,Relaxed,7,6,8,8,1,8,6,8,9,155,Executive Tier,Medium
+Royal Enfield,Interceptor 650,Cruiser,334987,648,47,52,804,218,174,13.7,23,169,Relaxed,7,6,8,8,1,8,6,8,9,155,Premium Tier,Medium
+Royal Enfield,Guerrilla 450,Cruiser,249194,452,39.47,40,780,185,169,11,28,140,Relaxed,7,6,8,8,1,8,6,8,10,150,Executive Tier,Medium
+BSA,Gold Star 650,Cruiser,337190,652,45.6,55,782,201,150,12,26,160,Relaxed,7,6,8,8,1,8,6,8,10,150,Premium Tier,Medium
+Royal Enfield,Goan Classic 350,Cruiser,223632,349,20.2,27,750,197,170,13,36.2,105,Relaxed,7,6,8,8,1,8,6,8,10,145,Executive Tier,Medium
+Hero,Splendor Plus,Commuter,76957,97.2,7.91,8.05,785,112,165,9.8,62,87,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Easy
+Hero,Xtreme 125R,Commuter,92843,124.7,11.4,10.5,794,136,180,10,66,100,Upright,10,10,5,4,1,8,9,8,9,155,Mass Tier,Medium
+Hero,Glamour,Commuter,84925,124.7,10.39,10.4,790,121.3,170,10,65,95,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Easy
+Yamaha,FZ X Hybrid,Commuter,143352,149,12.2,13.3,810,141,165,10,51,115,Upright,10,10,5,4,1,8,9,8,8,160,Mass Tier,Medium
+TVS,Apache RTR 160,Commuter,109971,159.7,15.82,13.85,790,137,180,12,61,107,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Medium
+Honda,SP125,Commuter,89406,123.94,10.72,10.9,790,116,160,11,63,100,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Easy
+Honda,Unicorn,Commuter,113613,162.71,13,14.48,798,139,187,13,50,106,Upright,10,10,5,4,1,8,9,8,9,155,Mass Tier,Easy
+TVS,Raider 125,Commuter,85344,124.8,11.2,11.2,780,123,180,10,56.7,99,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Easy
+TVS,Radeon,Commuter,73346,109.7,8.08,8.7,780,113,180,10,63,90,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Easy
+TVS,Star City Plus,Commuter,72022,109.7,8.08,8.7,785,115,172,10,70,90,Upright,10,10,5,4,1,8,9,8,10,150,Mass Tier,Easy
+Bajaj,Platina 110,Commuter,73123,115.45,8.48,9.81,807,119,200,11,70,90,Upright,10,10,5,4,1,8,9,8,8,160,Mass Tier,Easy
+Bajaj,Pulsar N125,Commuter,93695,124.58,11.83,11,795,125,198,9.5,60,100,Upright,10,10,5,4,1,8,9,8,9,155,Mass Tier,Medium
+KTM,Duke 200,Street Bike,191570,199.5,24.67,19.3,822,159,155,13.4,35,140,Slight Forward,8,9,7,6,2,6,7,8,7,165,Executive Tier,Medium
+KTM,Duke 250,Street Bike,220871,249.07,30.57,25,800,162.8,176,15,31,148,Slight Forward,8,9,7,6,2,6,7,8,9,155,Executive Tier,Medium
+Bajaj,Dominar 400,Street Bike,204511,349.13,40.04,33.2,800,190,157,13,30,155,Slight Forward,8,9,7,6,2,6,7,8,9,155,Executive Tier,Medium
+Yamaha,MT-15 V2,Street Bike,163798,155,18.1,14.1,810,141,170,10,47,130,Slight Forward,9,10,7,6,2,6,7,9,9,155,Executive Tier,Easy
+TVS,Apache RTR 160,Street Bike,109971,159.7,15.82,13.85,790,137,180,12,61,107,Slight Forward,8,9,7,6,2,6,7,8,10,150,Mass Tier,Medium
+TVS,Apache RTR 310,Street Bike,225280,312.12,35.08,28.7,800,169,180,11,30,150,Slight Forward,8,9,7,6,2,6,7,8,9,155,Executive Tier,Medium
+Bajaj,Pulsar N160,Street Bike,116504,164.28,15.68,14.65,795,148,165,14,51.6,120,Slight Forward,8,9,7,6,2,6,7,8,9,155,Mass Tier,Medium
+Hero,Xtreme 250R,Street Bike,172525,249.03,29.5,25,806,167.7,167,11.5,36,130,Slight Forward,8,9,7,6,2,6,7,8,8,160,Executive Tier,Medium
+Bajaj,Pulsar NS200,Street Bike,136755,199.5,24.13,18.74,805,158,168,12,36,130,Slight Forward,8,9,7,6,2,6,7,8,9,155,Mass Tier,Medium
+Honda,Hornet 2.0,Street Bike,147864,184.4,17.03,15.9,790,142,168,12,42.3,130,Slight Forward,8,9,7,6,2,6,7,8,10,150,Mass Tier,Medium
+Yamaha,FZ S Hybrid,Street Bike,137799,149,12.2,13.3,790,136,165,13,60,100,Slight Forward,8,9,7,6,2,6,7,8,10,150,Mass Tier,Medium
+Yamaha,XSR155,Street Bike,150957,155,18.1,14.2,810,137,170,10,46,140,Slight Forward,10,10,9,6,2,6,8,9,9,155,Executive Tier,Medium
+BMW,S1000RR,Super Bike,2324936,999,206.51,113,825,197,140,16.5,16,299,Aggressive,1,3,9,5,1,3,3,9,7,165,Super Tier,Hard
+Kawasaki,ZX-10R,Super Bike,2079000,998,193,112,835,207,135,17,25,299,Aggressive,1,3,9,5,1,3,3,9,7,165,Super Tier,Hard
+Kawasaki,Ninja Z900,Super Bike,999000,948,123.6,98.6,830,212,145,17,21,240,Aggressive,1,3,9,5,1,3,3,9,7,165,Super Tier,Hard
+Suzuki,Hayabusa,Super Bike,1806885,1340,190,142,800,266,125,20,18,300,Aggressive,1,3,9,5,1,3,3,9,9,155,Super Tier,Hard
+Ducati,Panigale V2,Super Bike,1950975,890,118,93.3,837,200,128,15,16.6,299,Aggressive,1,3,9,5,1,3,3,9,6,170,Super Tier,Hard
+Ducati,Panigale V4,Super Bike,3269958,1103,219,120.9,850,191,125,17,12,299,Aggressive,1,3,9,5,1,3,3,9,6,170,Super Tier,Hard
+Ducati,Streetfighter V4,Super Bike,2925963,1103,205,123,845,201,121,16,13.15,299,Aggressive,1,3,9,5,1,3,3,9,6,170,Super Tier,Hard
+Aprilia,RSV4 1100 Factory,Super Bike,3340763,1099,213.89,125,851,202,130,17.9,15.4,305,Aggressive,1,3,9,5,1,3,3,9,5,175,Super Tier,Hard
+Honda,CBR1000RR-R Fireblade,Super Bike,3350000,1000,214.56,113,830,201,115,16.5,12,299,Aggressive,1,3,9,5,1,3,3,9,7,165,Super Tier,Hard
+Triumph,Speed Triple 1200 RS,Super Bike,2175900,1160,180.5,128,830,199,165,15.5,18,230,Aggressive,1,3,9,5,1,3,3,9,7,165,Super Tier,Hard
+Ducati,SuperSport,Super Bike,1716100,937,108.62,93,810,210,132,16,17.8,299,Aggressive,1,3,9,5,1,3,3,9,8,160,Super Tier,Hard
+Royal Enfield,Continental GT 650,Cafe Racer,352687,648,47,52,804,211,174,12.5,25,169,Slight Forward,7,7,7,6,1,5,6,8,9,155,Premium Tier,Medium
+Husqvarna,Vitpilen 250,Cafe Racer,212976,249,30.57,25,820,163.8,180,13.5,37,150,Slight Forward,7,7,7,6,1,5,6,8,8,160,Executive Tier,Medium
+Triumph,Tracker 400,Cafe Racer,246388,349,39.45,32,805,183,158,13,27.7,154,Slight Forward,7,7,7,6,1,5,6,8,9,155,Executive Tier,Medium
+Jawa,42 FJ,Cafe Racer,183595,334,28.77,29.62,790,184,178,12,30,130,Slight Forward,7,7,7,6,1,5,6,8,10,150,Executive Tier,Medium
+Yamaha,XSR155,Cafe Racer,150957,155,18.1,14.2,810,137,170,10,46,140,Slight Forward,10,10,9,6,1,5,8,9,9,155,Executive Tier,Medium
+Royal Enfield,Guerrilla 450,Cafe Racer,249194,452,39.47,40,780,185,169,11,28,140,Slight Forward,7,7,7,6,1,5,6,8,10,150,Executive Tier,Medium
+Triumph,Speed T4,Cafe Racer,199289,349,28.6,31,806,180,170,13,30,137,Slight Forward,9,9,8,6,1,5,6,9,9,155,Executive Tier,Medium
+Triumph,Speed 400,Cafe Racer,234296,349,36.49,32,803,179,164,13,28,147,Slight Forward,7,7,7,6,1,5,6,8,9,155,Executive Tier,Medium
+Harley-Davidson,X440,Cafe Racer,235016,440,27,38,805,190.5,170,13.5,35,135,Slight Forward,7,7,7,6,1,5,6,8,9,155,Executive Tier,Medium
+Triumph,Speed Twin 1200 Cafe Racer Edition,Cafe Racer,1799000,1200,103.5,112,805,216,140,14.5,27,210,Slight Forward,7,7,7,6,1,5,6,8,9,155,Super Tier,Medium
+Triumph,Thruxton 400,Cafe Racer,269748,349,39.45,32,795,190,158,13,27,157,Slight Forward,7,7,7,6,1,5,6,8,9,155,Premium Tier,Medium
+BMW,R 12 nine T,Cafe Racer,2299971,1170,107.5,115,795,220,178,15,19.6,215,Slight Forward,7,7,7,6,1,5,6,8,9,155,Super Tier,Medium
+Triumph,Scrambler 400 X,Scrambler,259404,349,36.49,32,835,185,195,13,30,144,Upright,6,7,7,8,7,6,5,8,7,165,Premium Tier,Medium
+Royal Enfield,Scram 440,Scrambler,222692,443,25.4,34,795,196,200,15,30,120,Upright,6,7,7,8,7,6,5,8,9,155,Executive Tier,Medium
+Ducati,Scrambler Icon,Scrambler,1086986,803,71.83,65.2,795,185,176,13.5,19,299,Upright,6,7,7,8,7,6,5,8,9,155,Super Tier,Medium
+Yezdi,Scrambler,Scrambler,201647,334,29.56,30,813,174,200,12.5,30,140,Upright,6,7,7,8,7,6,5,8,8,160,Executive Tier,Medium
+Honda,Hness CB350RS,Scrambler,193117,348.36,20.78,30,800,180,168,15,35,150,Upright,6,7,7,8,7,6,5,8,9,155,Executive Tier,Medium
+Husqvarna,Svartpilen 401,Scrambler,297733,398.63,45.3,39,820,171.2,177,13.5,29,160,Upright,6,7,7,8,7,6,5,8,8,160,Premium Tier,Medium
+Ducati,Scrambler Nightshift,Scrambler,1346600,803,71.87,65.2,795,191,176,13.5,19,299,Upright,6,7,7,8,7,6,5,8,9,155,Super Tier,Medium
+Triumph,Scrambler 1200,Scrambler,1264100,1200,89,110,820,228,250,15,23,209,Upright,6,7,7,8,7,6,5,8,8,160,Super Tier,Medium
+BSA,Scrambler 650,Scrambler,327266,652,45.62,55,820,208,187,12,30,160,Upright,6,7,7,8,7,6,5,8,8,160,Premium Tier,Medium
+Moto Morini,Seiemmezzo Scrambler,Scrambler,482149,649,54.24,54,785,215,170,15.5,25,175,Upright,6,7,7,8,7,6,5,8,10,150,Premium Tier,Medium
+Benelli,Leoncino 500,Scrambler,559894,500,46.8,46,810,207,160,12.7,23,170,Upright,6,7,7,8,7,6,5,8,8,160,Super Tier,Medium
+Royal Enfield,Bear 650,Scrambler,375374,648,46.8,56.5,830,216,184,13.7,22,165,Upright,6,7,7,8,7,6,5,8,7,165,Premium Tier,Medium
+Royal Enfield,Himalayan 450,Adventure,305723,451.65,39.47,40,825,196,230,17,30,165,Upright,5,6,9,10,10,7,5,10,7,160,Premium Tier,Medium
+KTM,250 Adventure,Adventure,247616,248.76,30.5,25,825,177,227,14.5,32,140,Upright,5,6,8,9,9,7,5,8,7,165,Executive Tier,Medium
+KTM,390 Adventure,Adventure,282645,349.32,40.93,33.5,825,181,228,14.5,28,160,Upright,5,6,8,9,9,7,5,8,7,165,Premium Tier,Medium
+Hero,XPulse 210,Adventure,166780,210,24.2,20.7,830,168,220,13,37,140,Upright,5,6,8,8,10,7,5,9,6,170,Executive Tier,Medium
+Hero,XPulse 200 4V,Adventure,143828,199.6,18.9,17.35,825,159,220,13,38,115,Upright,5,6,8,8,10,7,5,9,6,170,Mass Tier,Medium
+Suzuki,V-Strom SX,Adventure,202478,249,26.1,22.2,835,167,205,12,36,140,Upright,5,6,8,9,9,7,5,8,7,160,Executive Tier,Medium
+BMW,F 450 GS,Adventure,470000,420,48.63,43,845,178,220,14,26,165,Upright,5,6,8,9,9,7,5,8,6,170,Premium Tier,Medium
+Yezdi,Adventure,Adventure,200108,334,29.16,29.56,815,187,220,15.5,30.5,140,Upright,5,6,8,9,9,7,5,8,8,160,Executive Tier,Medium
+Honda,NX200,Adventure,158607,184.4,16.76,15.7,810,148,167,12,42,130,Upright,5,6,8,9,9,7,5,8,8,160,Executive Tier,Medium
+Benelli,TRK 502,Adventure,662000,500,46.8,46,800,228,190,20,25,150,Upright,5,6,8,9,9,7,5,8,9,155,Super Tier,Medium
+Kawasaki,Versys-X 300,Adventure,349000,296,38.8,26,815,175,180,17,30,150,Upright,5,6,8,9,9,7,5,8,8,160,Premium Tier,Medium
+TVS,Apache RTX,Adventure,199000,299,35.5,28.5,835,180,200,12.5,32,140,Upright,5,6,8,9,9,7,5,8,7,165,Executive Tier,Medium
+TVS,Apache RTX,Tourer,199000,299,35.5,28.5,835,180,200,12.5,32,140,Upright,4,4,10,10,4,9,4,9,7,165,Executive Tier,Medium
+Suzuki,V-Strom SX,Tourer,202478,249,26.1,22.2,835,167,205,12,36,140,Upright,4,4,10,10,4,9,4,9,7,160,Executive Tier,Medium
+Yezdi,Adventure,Tourer,200108,334,29.16,29.56,815,187,220,15.5,30.5,140,Upright,4,4,10,10,4,9,4,9,8,160,Executive Tier,Medium
+Hero,XPulse 200 4V,Tourer,143828,199.6,18.9,17.35,825,159,220,13,38,115,Upright,4,4,10,8,10,9,4,9,6,170,Mass Tier,Medium
+Royal Enfield,Himalayan 450,Tourer,305723,451.65,39.47,40,825,196,230,17,30,165,Upright,4,6,9,10,10,9,4,10,7,160,Premium Tier,Medium
+KTM,390 Adventure,Tourer,282645,349.32,40.93,33.5,825,181,228,14.5,28,160,Upright,4,4,10,10,4,9,4,9,7,165,Premium Tier,Medium
+BMW,F 450 GS,Tourer,470000,420,48.63,43,845,178,220,14,26,165,Upright,4,4,10,10,4,9,4,9,6,170,Premium Tier,Medium
+Honda,NX500,Tourer,743900,471,46.9,43,830,196,181,17.5,26.5,180,Upright,4,4,10,10,4,9,4,9,7,165,Super Tier,Medium
+Benelli,TRK 502,Tourer,662000,500,46.8,46,800,228,190,20,25,150,Upright,4,4,10,10,4,9,4,9,9,155,Super Tier,Medium
+Honda,Transalp XL750,Tourer,1320000,755,90.5,75,850,208,210,16.9,25,180,Upright,4,4,10,10,4,9,4,9,6,170,Super Tier,Medium
+Triumph,Tiger 900,Tourer,1440000,888,106.5,90,820,219,203,20,21,202,Upright,4,4,10,10,4,9,4,9,8,160,Super Tier,Medium
+Triumph,Tiger Sport 660,Tourer,945000,660,80,64,835,206,162,17.2,22,220,Upright,4,4,10,10,4,9,4,9,7,165,Super Tier,Medium
