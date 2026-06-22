@@ -1,4 +1,15 @@
-import "./Trust.css"
+import "./Trust.css";
+import CardFlip from "../components/CardFlip/CardFlip";
+import CountUp from "../components/CountUp/CountUp";
+
+const trust = [
+{
+    title: ``,
+    text: ``,
+    description: ``,
+    color: "blue"
+}
+]
 
 function Trust() {
     return(
@@ -11,6 +22,10 @@ function Trust() {
                     BikeDex combines real motorcycle specifications with rider-focused 
                     insights to deliver recommendations that go beyond simple filters.
                 </p>
+            </div>
+
+            <div className="cardflip">
+                <CardFlip cards={trust}/>
             </div>
         </section>
     );

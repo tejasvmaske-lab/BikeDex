@@ -8,20 +8,22 @@ function CardFlip({ cards }) {
           <div className="flip-card-inner">
 
             <div className="flip-card-front">
-              <div className="emoji">{card.icon}</div>
-              <h2>{card.title}</h2>
+              {card.icon && <div className="emoji">{card.icon}</div>}
+              {card.title && <h2>{card.title}</h2>}
+              <h3>{card.text}</h3>
 
+              
               <div className="keywords">
-                {card.keywords.map((word, i) =>
+                {card.keywords?.map((word, i) => (
                   <p key={i}>{word}</p>
-                )}
+                ))}
               </div>
             </div>
 
             <div className="flip-card-back">
-              <h2>{card.backTitle}</h2>
-              <p>{card.description}</p>
-              <span>{card.spanText}</span>
+              {card.backTitle && <h2>{card.backTitle}</h2>}
+              {card.description && <p>{card.description}</p>}
+              {card.spanText && <span>{card.spanText}</span>}
             </div>
 
           </div>
