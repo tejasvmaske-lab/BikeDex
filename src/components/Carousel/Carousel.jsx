@@ -112,7 +112,7 @@ export default function Carousel({
   const containerPadding = 16;
   const getResponsiveWidth = (width) => {
     if (width < 640) return 300;      // mobile
-    if (width <800) return 700
+    if (width <900) return 700
     if (width < 1024) return 900;     // tablet
     return 1200;                       // desktop
   };
