@@ -1,16 +1,22 @@
 .howitworks{
-    min-height:100vh;
+    min-height: auto;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding:150px 7%;
+    padding: 80px 7% 120px 7%;
     color:white;
+}
+
+@media (max-width: 1023px) {
+    .howitworks {
+        padding: 50px 24px;
+    }
 }
 
 .howitworks-heading{
     text-align:center;
-    margin-bottom:100px;
+    margin-bottom: 50px;
 }
 
 .howitworks-heading h1{
