@@ -22,14 +22,11 @@ function HowItWorksCards() {
           <div className="flip-card-back">
             <h2>Tell Us About Yourself</h2>
 
-            <ul>
-              <li>✓ Rider Height</li>
-              <li>✓ Budget</li>
-              <li>✓ Experience Level</li>
-              <li>✓ Riding Style</li>
-              <li>✓ Usage Pattern</li>
-              <li>✓ Ownership Preference</li>
-            </ul>
+            <p>
+                BikeDex starts by understanding you, not just the motorcycle. 
+                Your height, budget, experience level, riding style, and daily 
+                usage help us create a profile that reflects how and where you actually ride.
+            </p>
 
             <span>Your profile matters more than specs.</span>
           </div>
@@ -55,14 +52,11 @@ function HowItWorksCards() {
           <div className="flip-card-back">
             <h2>BikeDex AI</h2>
 
-            <ul>
-              <li>✓ Ergonomics</li>
-              <li>✓ Comfort</li>
-              <li>✓ Accessibility</li>
-              <li>✓ Maintenance Cost</li>
-              <li>✓ Touring Capability</li>
-              <li>✓ Real-world Usage</li>
-            </ul>
+            <p>
+                BikeDex looks beyond horsepower and top speed. It analyzes ergonomics, comfort, 
+                accessibility, maintenance costs, touring capability, and real-world usability 
+                to find motorcycles that truly fit your needs.
+            </p>
 
             <span>Beyond horsepower and top speed.</span>
           </div>
@@ -88,13 +82,11 @@ function HowItWorksCards() {
           <div className="flip-card-back">
             <h2>Discover</h2>
 
-            <ul>
-              <li>✓ Personalized Matches</li>
-              <li>✓ Similar Alternatives</li>
-              <li>✓ Height-Friendly Options</li>
-              <li>✓ Ownership Insights</li>
-              <li>✓ Multiple Categories</li>
-            </ul>
+            <p>
+                Receive personalized recommendations tailored to your lifestyle, confidence level, 
+                and riding habits. Explore multiple categories, compare alternatives, and discover 
+                motorcycles that suit you—not just the bikes everyone else recommends.
+            </p>
 
             <span>Find bikes that fit YOU.</span>
           </div>
