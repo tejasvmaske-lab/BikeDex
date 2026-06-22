@@ -53,6 +53,13 @@
     line-height:1.8;
 }
 
+.carousel-wrapper{
+    position: relative;
+    min-height: 850px;
+    /* width: 1200px; */
+    
+}
+
 @media (max-width: 768px) {
     .about-rotating {
         min-height: 100px;   

@@ -1,4 +1,5 @@
 import RotatingText from "../components/RotatingText/RotatingText";
+import Carousel from "../components/Carousel/Carousel";
 import "./About.css";
 
 function About() {
@@ -28,6 +29,19 @@ function About() {
             their height, riding style, experience, comfort and
             real-world usage — not just horsepower and specifications.
         </p>
+
+        <section className="carousel">
+            <div className="carousel-wrapper">
+                <Carousel
+                    // baseWidth={1100}
+                    autoplay={true}
+                    autoplayDelay={5000}
+                    pauseOnHover={true}
+                    loop={true}
+                    round={false}
+                />
+            </div>
+        </section>
     </div>
 </section>
     );
