@@ -42,7 +42,6 @@
 .magic-bento {
     width: 100%;
     max-width: 1200px;
-    min-height: 700px;
     padding-bottom: 0px;
 }
 
@@ -56,13 +55,9 @@
         font-size: 0.95rem;
         line-height: 1.7;
     }
-
-    .magic-bento {
-        min-height: 800px;
-    }
 }
 
-@media (min-width: 769) and (max-width: 1023) {
+@media (min-width: 769px) and (max-width: 1023px) {
     .whybikedex {
         padding: 0px;
     }
