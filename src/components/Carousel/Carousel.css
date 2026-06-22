@@ -180,6 +180,23 @@
   background-color: #555;
 }
 
+.carousel-item-rating{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+.rating-row{
+    display:flex;
+    justify-content:space-between;
+    width:220px;
+    font-size:18px;
+}
+
+.rating-row span:last-child{
+    text-align:right;
+}
+
 @media (max-width: 599px){
     .carousel-image{
         display:none;
