@@ -102,7 +102,7 @@ function CarouselItem({ item, index, itemWidth, round, trackItemOffset, x, trans
 
 export default function Carousel({
   items = DEFAULT_ITEMS,
-  baseWidth = 300,
+  baseWidth = 1200,
   autoplay = false,
   autoplayDelay = 3000,
   pauseOnHover = false,
@@ -110,7 +110,32 @@ export default function Carousel({
   round = false
 }) {
   const containerPadding = 16;
-  const itemWidth = baseWidth - containerPadding * 2;
+  const getResponsiveWidth = (width) => {
+    if (width < 640) return 300;      // mobile
+    if (width <800) return 700
+    if (width < 1024) return 900;     // tablet
+    return 1200;                       // desktop
+  };
+
+  const [responsiveWidth, setResponsiveWidth] = useState(() => {
+    if (typeof window === 'undefined') return baseWidth;
+    const available = window.innerWidth - 40;
+    return Math.max(240, Math.min(baseWidth, getResponsiveWidth(available)));
+  });
+
+  useEffect(() => {
+    const updateWidth = () => {
+      const available = typeof window !== 'undefined' ? window.innerWidth - 40 : baseWidth;
+      const responsive = Math.min(baseWidth, getResponsiveWidth(available));
+      setResponsiveWidth(Math.max(240, responsive));
+    };
+
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, [baseWidth]);
+
+  const itemWidth = responsiveWidth - containerPadding * 2;
   const trackItemOffset = itemWidth + GAP;
   const itemsForRender = useMemo(() => {
     if (!loop) return items;
@@ -237,8 +262,9 @@ export default function Carousel({
       ref={containerRef}
       className={`carousel-container ${round ? 'round' : ''}`}
       style={{
-        width: `${baseWidth}px`,
-        ...(round && { height: `${baseWidth}px`, borderRadius: '50%' })
+        width: '100%',
+        maxWidth: `${responsiveWidth}px`,
+        ...(round && { height: `${responsiveWidth}px`, borderRadius: '50%' })
       }}
     >
       <motion.div
