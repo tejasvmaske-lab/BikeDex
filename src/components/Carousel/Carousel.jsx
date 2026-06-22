@@ -13,6 +13,12 @@ const DEFAULT_ITEMS = [
     advantage:`✓ High Mileage
     ✓ Comfortable Seating
     ✓ Easy Ownership`,
+    rating: `
+    Mileage         ⭐⭐⭐⭐⭐         
+    Comfort         ⭐⭐⭐⭐             
+    Power           ⭐⭐⭐                   
+    Maintenance     ⭐⭐⭐⭐⭐
+    `,
     id: 1,
     icon: <FiFileText className="carousel-icon" />
   },
@@ -23,6 +29,12 @@ const DEFAULT_ITEMS = [
     advantage:`✓ Wind Protection
     ✓ Large Fuel Tank
     ✓ Highway Comfort`,
+    rating: `
+    Mileage         ⭐⭐⭐⭐⭐         
+    Comfort         ⭐⭐⭐⭐⭐           
+    Power           ⭐⭐⭐                   
+    Maintenance     ⭐⭐⭐⭐⭐
+    `,
     id: 2,
     icon: <FiCircle className="carousel-icon" />
   },
@@ -33,6 +45,12 @@ const DEFAULT_ITEMS = [
     advantage:`✓ Off-Road Capability
     ✓ High Ground Clearance
     ✓ Weekend Exploration`,
+    rating: `
+    Mileage         ⭐⭐⭐⭐⭐         
+    Comfort         ⭐⭐⭐⭐            
+    Power           ⭐⭐⭐⭐⭐                   
+    Maintenance     ⭐⭐⭐⭐⭐
+    `,
     id: 3,
     icon: <FiLayers className="carousel-icon" />
   },
@@ -43,6 +61,12 @@ const DEFAULT_ITEMS = [
     advantage:`✓ Strong Performance 
     ✓ Aggressive Character
     ✓ Thrilling Experience`,
+    rating: `
+    Mileage         ⭐⭐⭐⭐⭐         
+    Comfort         ⭐⭐⭐⭐             
+    Power           ⭐⭐⭐                   
+    Maintenance     ⭐⭐
+    `,    
     id: 4,
     icon: <FiLayout className="carousel-icon" />
   },
@@ -53,6 +77,12 @@ const DEFAULT_ITEMS = [
     advantage:`✓ Beginner Friendly
     ✓ Easy Maintenance
     ✓ Everyday Practicality`,
+    rating: `
+    Mileage         ⭐⭐⭐⭐⭐         
+    Comfort         ⭐⭐⭐⭐             
+    Power           ⭐⭐⭐⭐⭐                   
+    Maintenance     ⭐⭐⭐⭐⭐
+    `,
     id: 5,
     icon: <FiCode className="carousel-icon" />
   },
@@ -63,6 +93,12 @@ const DEFAULT_ITEMS = [
     advantage:`✓ Pillion Comfort 
     ✓ Relaxed Ergonomics
     ✓ Weekend Trips`,
+    rating: `
+    Mileage         ⭐⭐⭐⭐⭐         
+    Comfort         ⭐⭐⭐⭐⭐             
+    Power           ⭐⭐⭐⭐                   
+    Maintenance     ⭐⭐⭐⭐
+    `,
     id: 6,
     icon: <FiCode className="carousel-icon" />
   }
@@ -95,6 +131,9 @@ function CarouselItem({ item, index, itemWidth, round, trackItemOffset, x, trans
         <p className="carousel-item-description">{item.description}</p>
         <p className="carousel-item-advantage">{item.advantage}</p>
         <p className="carousel-item-example">{item.example}</p>
+      </div>
+      <div className="carousel-item-left">
+        <p className="carousel-item-rating">{item.rating}</p>
       </div>
     </motion.div>
   );
