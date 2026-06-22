@@ -1,12 +1,12 @@
 .whybikedex {
     min-height: 100vh;
-    padding: 40px 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    gap: 25px;
     background: #0d1117;
+    margin: 0px;
 }
 
 .heading {
@@ -26,8 +26,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
     width: 100%;
+    padding-bottom: 0px;
 }
 
 .subheading h2 {
@@ -43,13 +43,10 @@
     width: 100%;
     max-width: 1200px;
     min-height: 700px;
+    padding-bottom: 0px;
 }
 
 @media (max-width: 768px) {
-
-    .whybikedex {
-        padding: 80px 24px;
-    }
 
     .heading h1 {
         font-size: 2.3rem;
@@ -62,5 +59,11 @@
 
     .magic-bento {
         min-height: 800px;
+    }
+}
+
+@media (min-width: 769) and (max-width: 1023) {
+    .whybikedex {
+        padding: 0px;
     }
 }
