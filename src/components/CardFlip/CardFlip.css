@@ -47,7 +47,7 @@
 }
 
 .flip-card-front h2{
-    font-size:2rem;
+    font-size:3rem;
 }
 
 .emoji{
@@ -71,6 +71,10 @@
 .flip-card-back h2{
     margin-bottom:25px;
     font-size:1.8rem;
+}
+
+.flip-card-front h3 {
+    font-weight: normal;
 }
 
 .flip-card-back ul{
@@ -101,4 +105,9 @@
 .orange .flip-card-front,
 .orange .flip-card-back{
     box-shadow:0 0 40px rgba(255,130,0,.2);
+}
+
+.green .flip-card-front,
+.green .flip-card-back{
+    box-shadow:0 0 40px rgba(13, 255, 0, 0.2);
 }

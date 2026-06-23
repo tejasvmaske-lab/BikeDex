@@ -5,6 +5,7 @@
     justify-content:center;
     align-items:center;
     color:white;
+    
 }
 
 .trust-heading h1 {
@@ -22,6 +23,7 @@
     font-weight: 400;
     line-height: 1.8;
     color: #94a3b8;
+    padding-bottom: 30px;
 }
 
 .cardflip{
