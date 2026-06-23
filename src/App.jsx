@@ -5,6 +5,7 @@ import WhyBikeDex from "../src/pages/WhyBikeDex";
 import About from "../src/pages/About";
 import HowItWorks from "../src/pages/HowItWorks";
 import Trust from "../src/pages/Trust";
+import Footer from "../src/pages/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <HowItWorks />
       <Trust />
+      <Footer />
     </>
   );
 };
