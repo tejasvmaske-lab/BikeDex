@@ -1,5 +1,6 @@
 import "./Step1AboutYou.css";
 import Counter from "../components/Counter/Counter";
+import ElasticSlider from "../components/ElasticSlider/ElasticSlider";
 
 function Step1AboutYou({ formData, setFormData }) {
 
@@ -12,18 +13,19 @@ function Step1AboutYou({ formData, setFormData }) {
                     Height: {formData.height} cm
                 </label>
 
-                <input
-                    type="range"
-                    min="140"
-                    max="210"
-                    value={formData.height}
-                    onChange={(e)=>
-                        setFormData({
-                            ...formData,
-                            height:Number(e.target.value)
-                        })
-                    }
-                />
+<ElasticSlider
+    leftIcon={<></>}
+    rightIcon={<></>}
+    startingValue={140}
+    maxValue={210}
+    value={formData.height}
+    onChange={(value)=>
+        setFormData({
+            ...formData,
+            height: Math.round(value)
+        })
+    }
+/>
 
             </div>
 
@@ -34,18 +36,19 @@ function Step1AboutYou({ formData, setFormData }) {
                     Weight: {formData.weight} kg
                 </label>
 
-                <input
-                    type="range"
-                    min="40"
-                    max="140"
-                    value={formData.weight}
-                    onChange={(e)=>
-                        setFormData({
-                            ...formData,
-                            weight:Number(e.target.value)
-                        })
-                    }
-                />
+<ElasticSlider
+    leftIcon={<></>}
+    rightIcon={<></>}
+    startingValue={40}
+    maxValue={140}
+    value={formData.weight}
+    onChange={(value)=>
+        setFormData({
+            ...formData,
+            weight: Math.round(value)
+        })
+    }
+/>
 
             </div>
 

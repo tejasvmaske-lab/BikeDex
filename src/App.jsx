@@ -7,6 +7,7 @@ import HowItWorks from "../src/pages/HowItWorks";
 import Trust from "../src/pages/Trust";
 import Footer from "../src/pages/Footer";
 import Questionnaire from "./pages/Questionnaire";
+import ElasticSlider from "./components/ElasticSlider/ElasticSlider";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Trust />
       <Questionnaire />
       <Footer />
+      <ElasticSlider />
     </>
   );
 };
