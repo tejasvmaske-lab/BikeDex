@@ -41,6 +41,7 @@
 .step-content-default {
   position: relative;
   overflow: hidden;
+  height: 430px;
 }
 
 .step-default {
@@ -156,4 +157,22 @@
   height: 1rem;
   width: 1rem;
   color: #fff;
+}
+
+@media (max-width: 481px) {
+  .step-content-default {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .step-content-default {
+    height: 600px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .step-content-default {
+    height: 500px;
+  }
 }
