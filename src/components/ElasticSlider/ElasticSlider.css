@@ -69,3 +69,9 @@
 .icon.dark {
   color: #ddd;
 }
+
+@media (max-width: 479px) {
+  .slider-wrapper {
+    width: 80%;
+  }
+}
