@@ -72,6 +72,7 @@
   transition: all 350ms;
   border-radius: 0.25rem;
   padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
   color: #a3a3a3;
   cursor: pointer;
 }
