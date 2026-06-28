@@ -1,0 +1,79 @@
+.budget{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.slider-group{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.slider-group label{
+    color:white;
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+.slider-group input{
+    width:100%;
+}
+
+.experience-cards{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.experience-cards button{
+    flex:1;
+    background:#111827;
+    color:white;
+    border:1px solid #2a2a2a;
+    border-radius:15px;
+    padding:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.experience-cards button:hover{
+    border-color:#5227FF;
+}
+
+.experience-cards .active{
+    background:#5227FF;
+}
+
+.budget-tier{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    text-align:center;
+}
+
+.budget-tier h3{
+    color:#8B5CF6;
+    font-size:1.4rem;
+    font-weight:700;
+}
+
+.budget-description{
+    max-width:520px;
+    color:#9CA3AF;
+    line-height:1.6;
+    font-size:.95rem;
+}
+
+.budget-examples{
+    color:#E5E7EB;
+    font-size:.95rem;
+}
+
+.budget-examples span{
+    color:#8B5CF6;
+    font-weight:600;
+}

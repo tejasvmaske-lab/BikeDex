@@ -19,7 +19,6 @@ function App() {
       <Trust />
       <Questionnaire />
       <Footer />
-      <ElasticSlider />
     </>
   );
 };

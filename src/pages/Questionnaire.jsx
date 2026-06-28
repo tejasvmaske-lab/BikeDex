@@ -14,11 +14,11 @@ import { useState } from "react";
 function Questionnaire() {
 
     const [formData, setFormData] = useState({
-        height: 170,
-        weight: 70,
+        rider_height_cm: 170,
+        rider_weight_kg: 70,
         experience: "beginner",
 
-        budget: 300000,
+        budget_inr: 40000,
 
         usage: [],
 
@@ -34,7 +34,7 @@ function Questionnaire() {
 
         ownership: "balanced",
 
-        brands: []
+        preferred_brands: []
     });
 
     return (

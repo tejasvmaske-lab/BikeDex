@@ -10,7 +10,7 @@ function Step1AboutYou({ formData, setFormData }) {
             <div className="slider-group">
 
                 <label>
-                    Height: {formData.height} cm
+                    Height: {formData.rider_height_cm} cm
                 </label>
 
 <ElasticSlider
@@ -18,11 +18,11 @@ function Step1AboutYou({ formData, setFormData }) {
     rightIcon={<></>}
     startingValue={140}
     maxValue={210}
-    value={formData.height}
+    value={formData.rider_height_cm}
     onChange={(value)=>
         setFormData({
             ...formData,
-            height: Math.round(value)
+            rider_height_cm: Math.round(value)
         })
     }
 />
@@ -33,7 +33,7 @@ function Step1AboutYou({ formData, setFormData }) {
             <div className="slider-group">
 
                 <label>
-                    Weight: {formData.weight} kg
+                    Weight: {formData.rider_weight_kg} kg
                 </label>
 
 <ElasticSlider
@@ -41,11 +41,11 @@ function Step1AboutYou({ formData, setFormData }) {
     rightIcon={<></>}
     startingValue={40}
     maxValue={140}
-    value={formData.weight}
+    value={formData.rider_weight_kg}
     onChange={(value)=>
         setFormData({
             ...formData,
-            weight: Math.round(value)
+            rider_weight_kg: Math.round(value)
         })
     }
 />
